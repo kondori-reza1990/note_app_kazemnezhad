@@ -11,9 +11,10 @@ class NoteApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text("Notes")),
-        body: Container(
-          child: Text("My Flutter Class"),
+        appBar: AppBar(title: const Text("Notes")),
+        body: Center(
+          child: Text("برنامه دفترچه یادداشت - کلاس فلاتر",
+          style: TextStyle(fontFamily: "fontFarsi",fontSize: 40),),
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
